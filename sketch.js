@@ -21,11 +21,11 @@ bob4=new Bob(450,350,50);
 bob5=new Bob(500,350,50);
 
   ground1 = new Ground(400,100,300,40);
-  sling1= new Suspender(bob1.body,ground1.body,-50*2,0);
-  sling2= new Suspender(bob2.body,ground1.body,-25*2,0);
-  sling3= new Suspender(bob3.body,ground1.body,-0*2,0);
-  sling4= new Suspender(bob4.body,ground1.body,25*2,0);
-  sling5= new Suspender(bob5.body,ground1.body,50*2,0);
+  sling1= new suspender(bob1.body,ground1.body,-50*2,0);
+  sling2= new suspender(bob2.body,ground1.body,-25*2,0);
+  sling3= new suspender(bob3.body,ground1.body,-0*2,0);
+  sling4= new suspender(bob4.body,ground1.body,25*2,0);
+  sling5= new suspender(bob5.body,ground1.body,50*2,0);
 
 	Engine.run(engine);
   
